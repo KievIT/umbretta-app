@@ -4,5 +4,6 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  crud_php_api:     'http://localhost/umbretta/src/php/rest-api/api.php',
 };

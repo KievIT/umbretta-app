@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {navItem} from './navitem';
+import {navItem} from '../../models/navitem';
 import {NavitemsService} from '../../services/navitems.service';
 
 
