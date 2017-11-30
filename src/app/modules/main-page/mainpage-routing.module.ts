@@ -3,7 +3,7 @@ import { FirstLayoutComponent } from '../../components/first-layout/first-layout
 import { Routes, RouterModule } from '@angular/router';
 
 const routes = [
-  { path: 'mainpage', component: FirstLayoutComponent}
+  { path: '', component: FirstLayoutComponent}
 ];
 
 @NgModule({

@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainPageModule }    from './modules/main-page/main-page.module';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'mainpage', pathMatch: 'full'}
+  { path: '', redirectTo: '', pathMatch: 'full'}
 ];
 
 @NgModule({
